@@ -1,0 +1,21 @@
+{
+  "name": "N",
+  "version": "1.0.0",
+  "description": "extension description",
+  "manifest_version": 3,
+  "author": "me",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "extension default title"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "notepad.png",
+    "32": "notepad.png",
+    "48": "notepad.png",
+    "128": "notepad.png"
+  }
+}

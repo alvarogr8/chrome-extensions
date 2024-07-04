@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  width: 215px;
+  display: grid;
+  grid-template-columns: repeat(7, 30px);
+  grid-template-rows: 30px;
+}
+
+img {
+  height: 24px;
+}
+img:hover {
+  scale: 1.1;
+}
